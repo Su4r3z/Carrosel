@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4f5f5;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  color: #747578;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.underline {
+  border-bottom: 3px solid #8c9a9e;
+  width: 50%;
+  border-radius: 50px;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #554348;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#name {
+  font-size: 20px;
+  margin-top: 2%;
+  font-weight: 600;
+  color: #747578;
+}
+
+#job {
+  font-size: 14px;
+  font-weight: 600;
+  color: #93b7be;
+}
+#info {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 3%;
+  text-align: center;
+  color: #8c9a9e;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.next-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 54px;
+  padding: 0 2% 0 2%;
+  color: #8c9a9e;
+  cursor: pointer;
+}
+.next-btn:hover {
+  color: #747578;
+}
+.prev-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 54px;
+  padding: 0 2% 0 2%;
+  color: #8c9a9e;
+  cursor: pointer;
+}
+.prev-btn:hover {
+  color: #747578;
+}
+.random-btn {
+  background-color: transparent;
+  border: 1px solid #93b7be;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 1%;
+  color: #8c9a9e;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.random-btn:hover {
+  background-color: #93b7be;
+  color: #fff;
+  transition: 0.4s;
+}
